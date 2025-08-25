@@ -18,13 +18,29 @@ export default defineConfig({
         orientation: 'portrait',
         icons: [
           {
-            src: '/src/assets/logo.png',
+            src: '/bjj-checkin/src/assets/logo.png',
             sizes: '192x192',
             type: 'image/png'
           },
           {
-            src: '/src/assets/logo.png',
+            src: '/bjj-checkin/src/assets/logo.png',
             sizes: '512x512',
+            type: 'image/png'
+          },
+          {
+            src: '/bjj-checkin/src/assets/logo.png',
+            sizes: '180x180',
+            type: 'image/png',
+            purpose: 'any maskable'
+          },
+          {
+            src: '/bjj-checkin/src/assets/logo.png',
+            sizes: '152x152',
+            type: 'image/png'
+          },
+          {
+            src: '/bjj-checkin/src/assets/logo.png',
+            sizes: '167x167',
             type: 'image/png'
           }
         ]
