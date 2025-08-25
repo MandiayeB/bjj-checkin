@@ -105,18 +105,11 @@ export default function App() {
     <div className="min-h-full flex flex-col">
       <header className="sticky top-0 z-10 backdrop-blur bg-zinc-950/70 border-b border-zinc-800">
         <div className="max-w-6xl mx-auto px-4 py-4 flex items-center gap-3">
-          <img 
-            src={logo} 
-            alt="GFA Logo" 
-            className="h-12 w-12 object-contain"
-          />
+          <img src={logo} alt="GFA Logo" className="h-12 w-12 object-contain" />
           <div className="flex-1">
             <h1 className="text-2xl font-semibold tracking-tight">
               GFA Présences
             </h1>
-            <p className="text-sm text-zinc-400">
-              Appuyez sur votre nom pour marquer votre présence.
-            </p>
           </div>
           {view === "practitioner" ? (
             <button
