@@ -103,8 +103,8 @@ export default function App() {
 
   return (
     <div className="min-h-full flex flex-col">
-      <header className="sticky top-0 z-10 backdrop-blur bg-zinc-950/70 border-b border-zinc-800">
-        <div className="max-w-6xl mx-auto px-4 py-4 flex items-center gap-3">
+      <header className="sticky top-0 z-10 backdrop-blur bg-zinc-950/70 border-b border-zinc-800 safe-top">
+        <div className="max-w-6xl mx-auto px-4 pt-4 pb-4 flex items-center gap-3">
           <img src={logo} alt="GFA Logo" className="h-12 w-12 object-contain" />
           <div className="flex-1">
             <h1 className="text-2xl font-semibold tracking-tight">

@@ -9,3 +9,9 @@ html, body, #root {
 ::selection {
   background-color: rgb(16 185 129 / 0.3);
 }
+
+@supports (padding-top: env(safe-area-inset-top)) {
+  .safe-top {
+    padding-top: env(safe-area-inset-top);
+  }
+}
