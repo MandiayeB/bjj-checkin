@@ -48,7 +48,7 @@ export default function BeltBadge({ belt = "White", stripes = 0 }) {
           •
         </span>
         <span className="tabular-nums">
-          {stripes || 0} barrette{Number(stripes) === 1 ? "" : "s"}
+          {stripes || 0} barrette{Number(stripes) < 2 ? "" : "s"}
         </span>
       </span>
     </div>
