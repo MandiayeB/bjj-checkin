@@ -17,6 +17,7 @@ import MemberCard from "./components/MemberCard";
 import NewMemberModal from "./components/NewMemberModal";
 import CoachLogin from "./components/CoachLogin";
 import CoachDashboard from "./components/CoachDashboard";
+import UpdatePrompt from "./components/UpdatePrompt";
 import logo from "./assets/logo.png";
 
 const COACH_PASSWORD = import.meta.env.VITE_COACH_PASSWORD || "bjj";
@@ -207,6 +208,8 @@ export default function App() {
           </div>
         </div>
       )}
+
+      <UpdatePrompt />
     </div>
   );
 }
